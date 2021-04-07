@@ -10,6 +10,11 @@ namespace Assignment
     {
         static void Main(string[] args)
         {
+            MergingSorting mergingSorting = new MergingSorting();
+            mergingSorting.MergingingSorting();
+            enumDays enumDayObj = new enumDays();
+            enumDayObj.GetNameValue();
+            Console.ReadLine();
         }
     }
 }
