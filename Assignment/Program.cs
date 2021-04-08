@@ -10,14 +10,14 @@ namespace Assignment
     {
         static void Main(string[] args)
         {
-            //MergingSorting mergingSorting = new MergingSorting();
-            //mergingSorting.MergingingSorting();
-            //enumDays enumDayObj = new enumDays();
-            //enumDayObj.GetNameValue();
-            //Patterns pattern = new Patterns();
-            //pattern.RPattern();
-            Exam results = new Exam();
-            results.marks();
+            MergingSorting mergingSorting = new MergingSorting();
+            mergingSorting.MergingingSorting();
+            enumDays enumDayObj = new enumDays();
+            enumDayObj.GetNameValue();
+            Patterns pattern = new Patterns();
+            pattern.RPattern();
+            Result results = new Result();
+            results.DisplayData();
             Console.ReadLine();
         }
     }
